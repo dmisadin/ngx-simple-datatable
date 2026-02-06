@@ -22,7 +22,7 @@ import { DashIconComponent } from '../icons/dash-icon.component';
           [style.min-width.px]="checkboxColumnWidth()"
           [style.max-width.px]="checkboxColumnWidth()"
         >
-          <div class="ngx-sdt-checkbox__container">
+          <label class="ngx-sdt-checkbox__container">
             <input
               #selectAllCheckbox
               type="checkbox"
@@ -36,7 +36,7 @@ import { DashIconComponent } from '../icons/dash-icon.component';
               <ngx-check-icon class="ngx-sdt-checkbox__check-icon" />
               <ngx-dash-icon class="ngx-sdt-checkbox__dash-icon" />
             </div>
-          </div>
+          </label>
         </th>
       }
       @for (col of visibleColumns(); track col.field; let j = $index) {
