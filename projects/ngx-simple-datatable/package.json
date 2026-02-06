@@ -25,11 +25,21 @@
     "filtering"
   ],
   "peerDependencies": {
-    "@angular/common": ">=17.0.0 <21.0.0",
-    "@angular/core": ">=17.0.0 <21.0.0"
+    "@angular/common": ">=17.0.0 <22.0.0",
+    "@angular/core": ">=17.0.0 <22.0.0"
   },
   "dependencies": {
     "tslib": "^2.6.0"
   },
-  "sideEffects": false
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./fesm2022/ngx-simple-datatable.mjs"
+    },
+    "./ngx-simple-datatable.css": {
+      "style": "./ngx-simple-datatable.css",
+      "default": "./ngx-simple-datatable.css"
+    }
+  },
+  "sideEffects": ["*.css"]
 }

@@ -105,7 +105,7 @@ import { interpolateWithPlural } from '../../utils/text-utils';
                       [style.min-width.px]="checkboxColumnWidth"
                       [style.max-width.px]="checkboxColumnWidth"
                     >
-                      <div class="ngx-sdt-checkbox__container" (click)="$event.stopPropagation()">
+                      <label class="ngx-sdt-checkbox__container" (click)="$event.stopPropagation()">
                         <input
                           type="checkbox"
                           class="ngx-sdt-checkbox__input"
@@ -117,7 +117,7 @@ import { interpolateWithPlural } from '../../utils/text-utils';
                         <div class="ngx-sdt-checkbox__visual">
                           <ngx-check-icon class="ngx-sdt-checkbox__check-icon" />
                         </div>
-                      </div>
+                      </label>
                     </td>
                   }
 
