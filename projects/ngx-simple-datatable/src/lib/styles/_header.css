@@ -3,7 +3,7 @@
   position: relative;
   user-select: none;
   box-sizing: border-box;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .ngx-sdt-header-cell.ngx-sdt-header-cell--sortable {
