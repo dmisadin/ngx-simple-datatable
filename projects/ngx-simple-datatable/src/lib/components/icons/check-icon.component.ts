@@ -6,7 +6,7 @@ import { NgClass } from '@angular/common';
   selector: 'ngx-check-icon',
   imports: [NgClass],
   template: `
-    <svg [ngClass]="class" version="1.1" viewBox="0 0 17 12">
+    <svg [ngClass]="class" version="1.1" viewBox="0 0 17 12" width="100%" height="100%">
       <g fill="none" fill-rule="evenodd">
         <g transform="translate(-9 -11)" fill="currentColor" fill-rule="nonzero">
           <path

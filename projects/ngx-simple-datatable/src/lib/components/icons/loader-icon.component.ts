@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'ngx-loader-icon',
   template: `
-    <svg class="loader-icon" viewBox="0 0 24 24">
+    <svg class="loader-icon" viewBox="0 0 24 24" width="100%" height="100%">
       <circle cx="18" cy="12" r="0" fill="currentColor">
         <animate
           attributeName="r"
