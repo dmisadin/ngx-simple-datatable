@@ -9,8 +9,8 @@ import { NgClass } from '@angular/common';
     <svg
       [ngClass]="class"
       viewBox="0 0 24 24"
-      width="24"
-      height="24"
+      width="100%" 
+      height="100%"
       stroke="currentColor"
       stroke-width="1.5"
       fill="none"
